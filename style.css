@@ -61,4 +61,15 @@ header{
     input::placeholder{
         color: var(--content-tertiary);
     }
+
+    button{
+        background: var(--color-brand);
+        color: #FFF;
+        font-weight: 600;
+    }
+
+    button:hover{
+        background: var(--color-brand-hover);
+        transition: background 0.4s;
+    }
 }
