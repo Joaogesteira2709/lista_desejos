@@ -73,3 +73,30 @@ header{
         transition: background 0.4s;
     }
 }
+
+.lista{
+    margin-top: 4rem;
+
+    .item{
+        padding: 1.2rem;
+        background: var(--always-white);
+        margin-bottom: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 1.2rem;
+        color: var(--content-secondary);
+    }
+
+    .checkbox-customizada{
+        width: 1.6rem;
+        height: 1.6rem;
+        border: 1px solid var(--border-primary);
+        border-radius: 0.6rem;
+    }
+
+    button{
+        border: none;
+        background: none;
+    }
+}
